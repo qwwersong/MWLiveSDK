@@ -39,18 +39,7 @@ sourceSets {
     }
 }
 ```
-在dependencies节点下添加依赖
-```
-//SDK需要的依赖
-api 'com.squareup.okio:okio:xxx'
-api 'com.google.code.gson:gson:xxx'
-api 'com.squareup.okhttp3:okhttp:xxx'
-```
 
-- 添加权限申明。打开 app/AndroidManifest.xml 文件，添加如下内容：
-
-```
-<uses-permission android:name="android.permission.INTERNET" />
 //因为使用OpenGL绘制需要硬件加速
 <uses-feature
 	android:glEsVersion="0x00020000"
@@ -323,4 +312,5 @@ onError：
 #### 3.3.1 注意
 
 直播模式： PlayerConstants.PLAYER_MW
+
 回放模式： PlayerConstants.PLAYER_MEDIA
