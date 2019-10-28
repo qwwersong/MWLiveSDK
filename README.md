@@ -40,6 +40,9 @@ sourceSets {
 }
 ```
 
+- 打开 app/AndroidManifest.xml 文件，添加如下内容：
+
+```
 //因为使用OpenGL绘制需要硬件加速
 <uses-feature
 	android:glEsVersion="0x00020000"
